@@ -4,7 +4,7 @@
  * @Author: ZhangHongYu
  * @Date: 2022-07-04 17:31:00
  * @LastEditors: ZhangHongYu
- * @LastEditTime: 2022-07-04 17:31:00
+ * @LastEditTime: 2022-07-07 15:14:04
 -->
 <!--
  * @Descripttion: 
@@ -21,10 +21,10 @@
 [![](https://img.shields.io/github/stars/orion-orion/CNN-LSTM-Flow-Analysis?style=social)](https://github.com/orion-orion/CNN-LSTM-Flow-Analysis)
 
 
-### 关于本项目
+## 关于本项目
 本项目为2020年中国高校计算机大赛(C4)－网络技术挑战赛EP2决赛赛项，题目为构建一个在线流量识分析与识别系统，能够实时识别出网络上的正常业务流量、恶意软件流量和网络攻击流量，并对各种流量随时序的变化进行进行可视化展示，我们采用CNN+LSTM时空神经网络使用，其中CNN对流量空间特征进行提取，LSTM对流量时序特征进行提取，从而完成不同种类流量分类功能。我们将思博伦官方给出的流量pcap包解析为流量的URL进行训练, 最终在官方给出的测试流量包上达到 93.5% 的准确率。
 
-### 环境依赖
+## 环境依赖
 运行以下命令安装环境依赖：
 ```
 pip install -r requirements.txt
